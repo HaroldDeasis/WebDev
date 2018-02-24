@@ -1,0 +1,144 @@
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#Container{
+	width:99%;
+	height: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:11px;
+}
+
+#Banner{
+	background-image: url(img/official.png);
+	height: 250px;
+	margin-bottom:5px;
+}
+
+#Menu{
+	height:40px;
+	background-color: maroon;
+	margin-bottom: 5px;
+	width:100%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#SideShop{
+	width:20%;
+	height:auto;
+	float:left;
+	margin-bottom: 5px;
+}
+
+#MainBody{
+	float:right;
+	width:79%;
+	height:auto;
+	margin-bottom: 5px;
+}
+
+#Footer{
+	margin-bottom: 5px;
+	width: 100%;
+	height: 200px;
+	background-color: maroon;
+	clear:both;
+}
+
+#_menu{
+	list-style-type:none;
+}
+
+#_menulist{
+	display: inline;
+	font-size:30px;
+	font-family:Cooper Black;
+	margin-left:130px;
+	margin-right:40px;
+	color: white;
+}
+
+#_sideshopheader{
+	font-family: Cooper Black;
+	color:black;
+	text-align:center;
+}
+
+#_sideshop{
+	list-style-type:none;
+}
+
+#_sideshoplist{
+	color: black;
+	font-family: Cooper Black;
+	font-size: 25px;
+	margin-bottom:15px;
+}
+#_menulink{
+	text-decoration:none;
+	color:white;
+}
+#_menulink:hover{
+	color:#ff3333;
+}
+
+#_sideshoplink{
+	text-decoration:none;
+	color:black;
+}
+
+#_sideshoplink:hover{
+	color:#ff3333;
+}
+
+#_footerheader{
+	color:white;
+	text-align:center;
+	font-family: Cooper Black;
+	padding-top:15px;
+}
+
+#_footersubmit{
+	list-style-type: none;
+}
+
+#_footersubmitlist1{
+	display:inline;
+	margin-left: 510px;
+}
+
+#_footersubmitlist{
+	display:inline;
+}
+
+#_footercopyright{
+	color:white;
+	font-family: Arial;
+	text-align:center;
+	font-style: Italic;
+}
+
+#_imgproducts{
+	width:28%;
+	height:350px;
+	border: 2px solid black;
+}
+
+#_productsrow1{
+	list-style-type:none;
+}
+
+#_prodlist{
+	display:inline;
+	margin:25px;
+}
+
+#_iconlinks{
+	text-decoration:none;
+}

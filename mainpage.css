@@ -1,0 +1,123 @@
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#Container{
+	width:99%;
+	height: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:11px;
+}
+
+#Banner{
+	background-image: url(img/pup.jpg);
+	height: 250px;
+	margin-bottom:5px;
+}
+
+#Menu{
+	height:50px;
+	background-color: maroon;
+	margin-bottom: 5px;
+	width:100%;
+}
+
+#SideShop{
+	width:25%px;
+	height:600px;
+	float:left;
+	margin-bottom: 5px;
+}
+
+#MainBody{
+	float:right;
+	width:82.5%;
+	height:600px;
+	margin-bottom: 5px;
+}
+
+#Footer{
+	margin-bottom: 5px;
+	width: 100%;
+	height: 200px;
+	background-color: maroon;
+	clear:both;
+}
+
+#_menu{
+	list-style-type:none;
+}
+
+#_menulist{
+	display: inline;
+	font-size:40px;
+	font-family:Cooper Black;
+	margin-left:110px;
+	margin-right:40px;
+	color: white;
+}
+
+#_sideshopheader{
+	font-family: Cooper Black;
+	color:black;
+	text-align:center;
+}
+
+#_sideshop{
+	list-style-type:none;
+}
+
+#_sideshoplist{
+	color: black;
+	font-family: Cooper Black;
+	font-size: 25px;
+	margin-bottom:15px;
+}
+#_menulink{
+	text-decoration:none;
+	color:white;
+}
+#_menulink:hover{
+	color:#ff3333;
+}
+
+#_sideshoplink{
+	text-decoration:none;
+	color:black;
+}
+
+#_sideshoplink:hover{
+	color:#ff3333;
+}
+
+#_footerheader{
+	color:white;
+	text-align:center;
+	font-family: Cooper Black;
+	padding-top:15px;
+}
+
+#_footersubmit{
+	list-style-type: none;
+}
+
+#_footersubmitlist1{
+	display:inline;
+	margin-left: 620px;
+}
+
+#_footersubmitlist{
+	display:inline;
+}
+
+#_footercopyright{
+	color:white;
+	font-family: Arial;
+	text-align:center;
+	font-style: Italic;
+}
+

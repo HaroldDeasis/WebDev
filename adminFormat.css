@@ -1,0 +1,104 @@
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#Container{
+	width:99%;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:11px;
+	clear:both;
+}
+
+#Banner{
+	background-image: url(img/official.png);
+	height: 250px;
+	margin-bottom:5px;
+}
+
+#Menu{
+	height:40px;
+	background-color: maroon;
+	margin-bottom: 5px;
+	width:100%;
+}
+
+#MainBody{
+	float:right;
+	width:75%;
+	height:auto;
+	margin-bottom: 5px;
+}
+
+#Footer{
+	margin-bottom: 5px;
+	width: 100%;
+	height: 200px;
+	background-color: maroon;
+	clear:both;
+}
+
+#_menu{
+	list-style-type:none;
+}
+
+#_menulist{
+	display: inline;
+	font-size:30px;
+	font-family:Cooper Black;
+	margin-left:230px;
+	margin-right:40px;
+	color: white;
+}
+
+#_menulink{
+	text-decoration:none;
+	color:white;
+}
+#_menulink:hover{
+	color:#ff3333;
+}
+
+#_footerheader{
+	color:white;
+	text-align:center;
+	font-family: Cooper Black;
+	padding-top:15px;
+}
+
+#_footersubmit{
+	list-style-type: none;
+}
+
+#_footersubmitlist1{
+	display:inline;
+	margin-left: 510px;
+}
+
+#_footersubmitlist{
+	display:inline;
+}
+
+#_footercopyright{
+	color:white;
+	font-family: Arial;
+	text-align:center;
+	font-style: Italic;
+}
+
+#avatar{
+	height: 200px;
+	width:60%;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#sideadminmenu{
+	width:25%;
+	height: 400px;
+	float:left;
+}

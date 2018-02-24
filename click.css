@@ -1,0 +1,386 @@
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#Container{
+	width:99%;
+	height: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:11px;
+}
+
+#Banner{
+	background-image: url(img/official.png);
+	height: 250px;
+	margin-bottom:5px;
+}
+
+#Menu{
+	height:40px;
+	background-color: maroon;
+	margin-bottom: 5px;
+	width:100%;
+}
+
+#SideShop{
+	width:20%;
+	height:auto;
+	float:left;
+	margin-bottom: 5px;
+}
+
+#MainBody{
+	float:right;
+	width:79%;
+	height:auto;
+	margin-bottom: 5px;
+}
+
+#Footer{
+	margin-bottom: 5px;
+	width: 100%;
+	height: 200px;
+	background-color: maroon;
+	clear:both;
+}
+
+#_menu{
+	list-style-type:none;
+}
+
+#_menulist{
+	display: inline;
+	font-size:30px;
+	font-family:Cooper Black;
+	margin-left:130px;
+	margin-right:40px;
+	color: white;
+}
+
+#_sideshopheader{
+	font-family: Cooper Black;
+	color:black;
+	text-align:center;
+}
+
+#_sideshop{
+	list-style-type:none;
+}
+
+#_sideshoplist{
+	color: black;
+	font-family: Cooper Black;
+	font-size: 25px;
+	margin-bottom:15px;
+}
+
+#_menulink{
+	text-decoration:none;
+	color:white;
+}
+
+#_menulink:hover{
+	color:#ff3333;
+}
+
+#_sideshoplink{
+	text-decoration:none;
+	color:black;
+}
+
+#_sideshoplink:hover{
+	color:#ff3333;
+}
+
+#_footerheader{
+	color:white;
+	text-align:center;
+	font-family: Cooper Black;
+	padding-top:15px;
+}
+
+#_footersubmit{
+	list-style-type: none;
+}
+
+#_footersubmitlist1{
+	display:inline;
+	margin-left: 510px;
+}
+
+#_footersubmitlist{
+	display:inline;
+}
+
+#_footercopyright{
+	color:white;
+	font-family: Arial;
+	text-align:center;
+	font-style: Italic;
+}
+
+#shirt1
+{
+	position: absolute;
+	top:380px;
+	left:360px;
+}
+
+#next
+{
+	position: absolute;
+	opacity: .5;
+	top:280px;
+	left:474px;
+}
+
+#prev
+{
+	position: absolute;
+	opacity: .5;
+	top:280px;
+	left:-24px;
+}
+
+#border1
+{
+	position: absolute;
+	border: 3px solid maroon;
+	top:360px;
+	left:300px;
+	height:1000px;
+	width:1000px;
+}
+
+#border2
+{
+	position: absolute;
+	border: 3px solid #e8c412;
+	top:365px;
+	left:305px;
+	height:988.5px;
+	width:988.5px;
+}
+
+#detailbg1
+{
+	position:absolute;
+	background-color:maroon;
+	height:100px;
+	width:380px;
+	top:380px;
+	left:900px;
+}
+#pname
+{
+	position:absolute;
+	font-family:Comic Sans;
+	font-size:33px;
+	font-weight:bold;
+	top:360px;
+	left: 960px;
+	color:#fce519;
+}
+#price
+{
+	position:absolute;
+	font-family:Comic Sans;
+	font-size:28px;
+	font-weight:bold;
+	top:410px;
+	left:1030px;
+	color:white;
+}
+#detailbg2
+{
+	position:absolute;
+	background-color:#fce519;
+	height:480px;
+	width:380px;
+	top:500px;
+	left:900px;
+}
+
+#prod_details
+{
+	position:absolute;
+	font-family:Trebuchet MS;
+	font-size:22px;
+	font-weight:bold;
+	top:500px;
+	left:1020px;
+	color:black;
+}
+
+#item
+{
+	position:absolute;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	top:550px;
+	left:910px;
+	color:black;
+}
+
+#item_details
+{
+	position:absolute;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	top:550px;
+	left:1015px;
+	color:black;
+}
+
+#color
+{
+	position:absolute;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	top:643px;
+	left:1015px;
+	width:118px;
+}
+
+#size
+{
+	position:absolute;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	top:690px;
+	left:1015px;
+	width:118px;
+}
+
+#type
+{
+	position:absolute;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	top:737px;
+	left:1015px;
+	width:118px;
+}
+
+#neckline
+{
+	position:absolute;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	top:784px;
+	left:1015px;
+	width:118px;
+}
+
+#add
+{
+	position:absolute;
+	top:833px;
+	left:1100px;
+}
+
+#sub
+{
+	position:absolute;
+	top:833px;
+	left:1015px;
+}
+
+#quantity
+{
+	position:absolute;
+	font-family:Serif;
+	font-size:17px;
+	top:831px;
+	left:1037px;
+}
+
+#addtocart
+{
+	position: absolute;
+	font-family:Sans-serif;
+	font-weight:bold;
+	font-size:25px;
+	color:white;
+	top:905px;
+	left:978px;
+}
+
+#cart
+{
+	position: absolute;
+	top:928px;
+	left:1160px;
+}
+
+#addtocartbg
+{
+	position: absolute;
+	background-color:maroon;
+	height:40px;
+	width:360px;
+	top:925px;
+	left:910px;
+	border-radius: 25px;
+}
+
+#featuredbg
+{
+	position: absolute;
+	background-color:maroon;
+	height:40px;
+	width:920px;
+	top:1000px;
+	left:360px;
+}
+
+#featured
+{
+	position: absolute;
+	font-family:Cooper Black;
+	font-weight:bold;
+	font-size:35px;
+	color:white;
+	top:966px;
+	left:380px;
+}
+
+#feat1
+{
+	position:absolute;
+	border:2px solid maroon;
+	padding:10px;
+	top:1060px;
+	left:360px;
+}
+#feat2
+{
+	position:absolute;
+	border:2px solid maroon;
+	padding:10px;
+	top:1060px;
+	left:610px;
+}
+
+#feat3
+{
+	position:absolute;
+	border:2px solid maroon;
+	padding:10px;
+	top:1060px;
+	left:850px;
+}
+
+#feat4
+{
+	position:absolute;
+	border:2px solid maroon;
+	padding:10px;
+	top:1060px;
+	left:1085px;
+}

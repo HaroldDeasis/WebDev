@@ -1,0 +1,8 @@
+
+gif in pixels
+height:350px;
+width: 972px;
+
+banner in pixels
+height: 250px;
+width:1335px;
